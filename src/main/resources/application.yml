@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    default: dev
+  jackson:
+    time-zone: America/Argentina/Buenos_Aires
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
