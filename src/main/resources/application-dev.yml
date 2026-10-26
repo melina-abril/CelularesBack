@@ -1,0 +1,5 @@
+# Usuarios de prueba: cliente, vendedor, supervisor, backoffice y gerencia.
+# La contraseña de ejemplo se configura con DEV_USER_PASSWORD.
+logging:
+  level:
+    com.ventacelulares: DEBUG
